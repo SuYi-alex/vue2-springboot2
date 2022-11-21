@@ -234,8 +234,7 @@ export default {
           } else {
             if (this.phoneForm.phone !== '18989364491') {
               this.$message.error('手机号输入错误');
-            }
-            if (this.phoneForm.VerfiCcode !== '123456') {
+            }else if (this.phoneForm.VerfiCcode !== '123456') {
               this.$message.error('验证码输入错误');
             }
           }

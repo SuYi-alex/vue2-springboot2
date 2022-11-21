@@ -1,10 +1,10 @@
 server:
-  port:9090
+  port: 9090
 
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/qingqu-mall
     username: root
-    password: nq123456
+    password: nq12345678
 
